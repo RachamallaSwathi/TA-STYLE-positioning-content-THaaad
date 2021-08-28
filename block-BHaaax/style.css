@@ -1,0 +1,41 @@
+img {
+    vertical-align: middle;
+    width: 400px;
+    height: 400px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+    display: inline-block;
+}
+.patagonia1 {
+    width: 500px;
+     height: 500px;
+     padding: 10px;
+     display: inline-block;
+     margin: 50px;
+
+}
+.patagonia2 {
+    width: 500px;
+     height: 500px;
+     padding: 10px;
+     display: inline-block;
+     margin: 50px;
+
+}
+.class {
+
+        width: 150px;
+        height: 150px;
+        padding: 20px;
+        margin-left: 80%;
+       
+      
+    }
+h1 {
+    width: 300px;
+    height: 45px;
+    padding: 20px;
+    font-size: 40px;
+}
