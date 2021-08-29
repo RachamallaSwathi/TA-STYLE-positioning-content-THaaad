@@ -74,13 +74,15 @@ h1 {
   padding: 18px 0;
 }
 .button {
-  display: inline-block;
-  width: 70px;
+  background-color: cornflowerblue;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
   height: 70px;
+  width: 70px;
+  border: none;
   border-radius: 50%;
-  background-color: blueviolet;
-  text-transform: 30px;
-  
+  font-size: 20px;
   
   
 }
