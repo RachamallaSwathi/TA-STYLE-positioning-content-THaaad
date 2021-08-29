@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    }
+    body {
+      line-height: 1.5;
+    }
+    header,
+    footer {
+      background-color:royalblue;
+      color: black;
+      padding: 15px 70px;
+    }
+    a {
+      
+      color: black;
+      padding: 0px 10px;
+    }
+    .patagonia1 {
+      float: left;
+      font-size: 35px;
+      font-weight: bolder;
+    }
+    .patagonia2 {
+      float: right;
+      font-size: 20px;
+      text-align: right;
+      padding-top: 10px;
+    }
+    .container {
+      overflow: auto;
+    }
+    img {
+      width: 400px;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+    .blog {
+      width: 30%;
+      float: left;
+      margin: 40px 20px;
+      margin: 20px;
+    }
+   
+    
