@@ -1,24 +1,38 @@
-* {
-    box-sizing: border-box;
-  }
-  
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: cadetblue;
+}
 .container {
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding:  30px;
+    background-color: white;
+}
+
+/* clearfix */
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+} 
+.clearfix::after {
+    clear: both;
 }
 h1 {
-   ;
+    font-size: 40px;
     text-align: center;
-    padding: 10px;
-  }
-.para {
-        padding: 20px 40px;
 }
-.container1{
-    float: right;
-    
+.cat1 {
+    float: left;
 }
-h2 {
-    padding-top: 0.1px;
+aside {
+    width: 25%;
+}
+article {
+    width: 50%;
+}
+.article2 {
+    padding: 0 40px;
 }
