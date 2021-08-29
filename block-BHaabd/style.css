@@ -1,0 +1,38 @@
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: cadetblue;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:  30px;
+    background-color: white;
+}
+
+/* clearfix */
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+} 
+.clearfix::after {
+    clear: both;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.cat1 {
+    float: left;
+}
+aside {
+    width: 25%;
+}
+article {
+    width: 50%;
+}
+.article2 {
+    padding: 0 40px;
+}
